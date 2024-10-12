@@ -1,14 +1,14 @@
 body{
-    background-color: plum
-}
-div{
+    background-color: rgb(225, 237, 238)
+} 
+/* div{
     background-color: rgb(244, 243, 219);
 }
 .container{
     height: 400px;
     background-color: rgb(241, 136, 157);
     border: 2px black solid;
-}
+} */
 /* .child1{
     background-color: rgb(160, 52, 52);
     color: white;
@@ -20,6 +20,45 @@ div{
     box-sizing: border-box;
 } */
 
-div> p{
+/* div+p{
     background-color: rgb(247, 247, 143);
+} */ 
+
+/* .myparagraph{
+    background-color: antiquewhite;
+}
+#myid{
+    background-color: rgb(179, 246, 162);
+} */
+
+
+.container{
+    background-color: cadetblue;
+    height: 400px;
+    width: 100%;
+    border: 2px red solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child1,.child2,.child3{
+    height: 200px;
+    border: 1px blue dotted;
+    width: 300px;
+    display: flex;
+    /* padding: 20px;
+    margin: 20px; */
+}
+.child1{
+    background-color: bisque;
+}
+
+.child2{
+    background-color: rgb(246, 239, 141);
+    flex-basis: 50%;
+}
+.child3{
+    background-color: rgb(241, 182, 247);
 }
